@@ -1,0 +1,4 @@
+app = input('apparent magnitude: ')
+d = input('distance in parsecs: ')
+
+abs = -(5*(log10(d)-1)-app)
